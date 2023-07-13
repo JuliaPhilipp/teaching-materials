@@ -7,6 +7,7 @@ Text editor - not word and not notepad / textedit, e.g. sublime editor or text w
 - a markup language (in German Auszeichnungssprache), a machine readable language for organising and formatting text (a famous exmaple is html)
 - a play of words on markup, maybe because it is so easy?
 - used e.g. by Github. You can upload a markdown file and view a beautifully formatted text page, like this one :wink
+- Github will display an interpreted form of a markdown file, but you can click on ``Code`` to see the raw form of the markdown file.
 
 ## What do you need to do?
 1. Use a text editor (see tools above) to create a file containing text and saving it as an .md file
@@ -37,7 +38,7 @@ Use Dashs for unordered lists, numbers for ordered lists, brackets for checklist
 3. an
 4. ordered
 5. list
-
+  
 1. this
 8. is
 4. also
