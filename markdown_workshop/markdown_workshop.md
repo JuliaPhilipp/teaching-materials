@@ -38,9 +38,9 @@ Use Dashs for unordered lists, numbers for ordered lists, brackets for checklist
 4. ordered
 5. list
 
-- [] this
-- [] is
-- [] a
+- [ ] this
+- [ ] is
+- [ ] a
 - [x] checklist
 ```
 The part above will interpreted to look like this
@@ -56,9 +56,9 @@ The part above will interpreted to look like this
 4. ordered
 5. list
 
-- [] this
-- [] is
-- [] a
+- [ ] this
+- [ ] is
+- [ ] a
 - [x] checklist
 
 ### Inline Text / Links
