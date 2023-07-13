@@ -56,10 +56,10 @@ The part above will interpreted to look like this
 4. ordered
 5. list
 
-[] this
-[] is
-[] a
-[x] checklist
+- [] this
+- [] is
+- [] a
+- [x] checklist
 
 ### Inline Text / Links
 Highlight words in text using the following markup:
