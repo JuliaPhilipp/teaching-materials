@@ -38,10 +38,10 @@ Use Dashs for unordered lists, numbers for ordered lists, brackets for checklist
 4. ordered
 5. list
 
-[] this
-[] is
-[] a
-[x] checklist
+- [] this
+- [] is
+- [] a
+- [x] checklist
 ```
 The part above will interpreted to look like this
 - this
@@ -65,18 +65,26 @@ The part above will interpreted to look like this
 Highlight words in text using the following markup:
 ```
 **bold text**
+
 *cursive text*
+
 _underlined text_
+
 ~~strike through text~~
+
 [a link to google](www.google.de)
 ```
 
 The part above will interpreted to look like this
 
 **bold text**
+
 *cursive text*
+
 _underlined text_
+
 ~~strike through text~~
+
 [a link to google](www.google.de)
 
 ### Code (Highlights)
@@ -84,6 +92,7 @@ Two backticks \`\` will highlight code in line with normal text. Like this `.md`
 Three backticks \`\`\` at the beginning and end will be interpreted as whole chunks of code.
 
 \`\`\`
+
 plot(
     c(0, 1, 1),
     c(0, 0, 1),
@@ -97,6 +106,7 @@ plot(
     xlim = c(-0.25, 1.25),
     ylim = c(-0.25, 1.25)
 )
+
 \`\`\`
 
 will look like this
