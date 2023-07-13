@@ -73,7 +73,7 @@ The part above will interpreted to look like this
 - [x] checklist
 
 ### Emphasis & Links
-Highlight words in text using the following markup:
+Highlight words in text using the following markup. Notice that these markup symbols are placed *before* and *after* the highlighted portion of the text.
 ```
 **bold text**
 
@@ -81,14 +81,14 @@ Highlight words in text using the following markup:
 
 _also cursive text_
 
-_*bold and italicized text*_
+*_bold and italicized text_*
 
 ~~strike through text~~
 
 [a link to google](www.google.de)
 ```
 
-The part above will interpreted to look like this
+#### The part above will interpreted to look like this
 
 **bold text**
 
@@ -141,7 +141,8 @@ plot(
 
 ### A word on line breaks
 Just hitting the enter/return key is not going to create a line break in markdown, unlike in Word. But you can use two or more whitespaces at the end of your line (so called trailing whitespace) to mark line breaks.  
-Alternatively, you can use the html code ``<br>`` for a line break. Not all markdown applications accept this for security reasons.
+Alternatively, you can use the html code ``<br>`` for a line break. <br>
+Not all markdown applications accept this for security reasons.
 
 ## Resources
 - [Basic Syntax of Markdown](https://www.markdownguide.org/basic-syntax/)
