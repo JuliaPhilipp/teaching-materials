@@ -39,6 +39,7 @@ Use Dashs for unordered lists, numbers for ordered lists, brackets for checklist
 4. ordered
 5. list
   
+Below is also an ordered list:
 1. this
 8. is
 4. also
@@ -63,6 +64,7 @@ The part above will interpreted to look like this
 4. ordered
 5. list
 
+Below is also an ordered list:
 1. this
 8. is
 4. also
