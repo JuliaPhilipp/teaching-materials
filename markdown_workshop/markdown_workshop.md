@@ -88,7 +88,7 @@ _also cursive text_
 
 ~~strike through text~~
 
-[a link to google](www.google.de)
+[a link to google](https://www.google.de)
 ```
 
 #### The part above will interpreted to look like this
@@ -101,7 +101,7 @@ _*bold and italicized text*_
 
 ~~strike through text~~
 
-[a link to google](www.google.de)
+[a link to google](https://www.google.de)
 
 ### Code (Highlights)
 Two backticks \`\` will highlight code in line with normal text. Like this `.md` \
