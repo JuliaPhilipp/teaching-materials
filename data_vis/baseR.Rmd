@@ -1,0 +1,36 @@
+---
+title: "baseR"
+output: html_document
+date: "2024-02-15"
+---
+
+```{r setup, include=FALSE}
+library(palmerpenguins)
+library(ggplot2)
+data(package = 'palmerpenguins')
+```
+
+
+```{r}
+head(penguins)
+
+```
+
+
+```{r}
+plot(penguins$flipper_length_mm, penguins$bill_length_mm)
+```
+
+
+```{r}
+plot(penguins$flipper_length_mm, penguins$bill_length_mm, col=penguins$species,
+     ylab = "Bill length (mm)",
+     xlab = "Flipper length (mm)",
+     pch = 3)
+
+```
+
+```{r}
+hist(penguins$flipper_length_mm, col=penguins$species)
+```
+
